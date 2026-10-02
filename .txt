@@ -1,0 +1,70 @@
+data structure-it is a way to organize the data in a very efficiant manner 
+there is 2 type of data structure 
+1-primitive(build in ) int float
+2-non primitive (dynamic-linear -linked list ,stack,queue )
+non linear-trees and graph
+Alogorithms- it is a step by step to write a a program 
+it is maesure  by in the term of time complexity and the space commplexity 
+
+
+Asmptatic notation - has 3-
+1-big 0 wrost time 
+2-bin theta   average time
+3-big omega  best time 
+
+
+BIg 0 notation -no of operation required to solve a problem 
+f(N)=3n^2+n
+n^2
+
+
+TIme and space trade of -it is situation where  one thing increse and other decrease 
+lookup tsble-write down all the situation which would take less time but more space  or vise versa
+
+
+Abstract dat type- it only denote what operation are to perfome but not how the operation perform 
+
+array- it is continuous memory allocation 2 type-one d and 2 d 
+sparse matrices -it is a 2 d mertrices where most of the element are zero 
+--array rep spacre-row coloumn value 
+- linked list rep sparse- list form row coloum value one bracet off
+
+RECURSION-when the function calls itself it is called recursion 
+it is 2 type 
+- head recursion 
+tail recursion
+
+
+void head_func(int n)
+{
+    if (n==0)
+    return 
+    head_func(n-1);
+    printf("%d",n);
+
+}
+int main(){
+    head_func(5);
+    return 0;
+
+}
+TAil recursion
+ void tail_fun(int n)
+ if (n==0){
+    return 
+   
+    printf("%d",n);
+    tail_func(n-1);
+
+ }
+ int main(){
+    tail_fun(5);
+    return 0;
+ }
+ reursion - does not always use back tracking  
+ backtracking- always use recursion
+ recursion-prob are solve by break into smaller once 
+ backtracking-solving a probling with multiple choice 
+ recursion control by  function
+ backtracking -manage by loop 
+ 

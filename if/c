@@ -1,0 +1,120 @@
+// 
+// #include<stdio.h>
+// int main (){
+//     int a ;
+//     printf("enter the age");
+//     scanf("%d",&a);
+//     if(a>10)
+//     printf("you are not kid you are mature ");
+//     else 
+//     printf("you are kid");
+//     return 0;
+
+// }
+// #include<stdio.h>
+// int main (){
+//     int a ;
+//     printf("enter the age");
+//     scanf("%d",&a);
+//     if(a>10)
+//     printf("you are not kid you are mature ");
+//     else if (a==10)
+//     printf("you are monu");
+//     else 
+//     printf("you are kid");
+//     return 0;
+
+// }
+// /////////////////////////////////////////////code to find the greater number between them////////////////////////////////////////
+// #include<stdio.h>
+// int main ()
+// {
+//     int a,b ;
+// printf("enter the number 1");
+// scanf("%d",&a);
+// printf("enter the number 2");
+// scanf("%d",&b);
+// if(a>b)
+// printf("a is maximum");
+// else
+// printf("a is minimum");
+// }
+
+// #include<stdio.h>
+// int main ()
+// {
+//     int a,b,c ;
+// printf("enter the number 1");
+// scanf("%d",&a);
+// printf("enter the number 2");
+// scanf("%d",&b);
+
+// printf("enter the number 3 ");
+// scanf("%d",&c);
+// if(a>b || a>c)
+// printf("a is maximum",a);
+// else if(a<b || b>c)
+// printf("b is maximum",b);
+
+
+// else 
+// printf("c is maximum",c);
+// return 0;
+// }
+
+// #include<stdio.h>
+// int main (){
+//     int ch;
+//     printf("enter any value from 1 to 7");
+//     scanf("%d",&ch);
+//     switch(ch)
+//     {
+//         case 1:
+//         printf("sunday");
+//         break;
+//         case 2:
+//         printf("monday");
+//         break;
+//         case 3:
+//         printf("tuesday");
+//         break;
+//         case 4:
+//         printf("wednesday");
+//         break;
+//         case 5:
+//         printf("thursday");
+//         break;
+//         default:
+//         printf("its wrong case ");
+//         break;
+
+//     }
+//     return 0;
+// }
+
+
+// #include<stdio.h>
+// int main (){
+// int num;
+// printf("enter a number  ");
+// scanf("%d",&num);
+// if (num%2==0)
+// {
+//     goto even;
+// }else{
+//     goto odd;
+// }
+//  even:
+//  printf("the number is even");
+//  return 0;
+//  odd:
+//  printf("the number is odd");
+//  return 0;
+
+// }
+
+// 
+#include<stdio.h>
+int main (){
+   printf("vhghjvbj");
+}
